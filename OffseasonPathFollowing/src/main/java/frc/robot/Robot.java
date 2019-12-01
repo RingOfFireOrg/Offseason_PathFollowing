@@ -10,6 +10,7 @@ public class Robot extends TimedRobot {
 
   @Override
   public void robotInit() {
+    Scheduler scheduler = new Scheduler();
   }
 
 

@@ -5,6 +5,8 @@ public class Scheduler {
     boolean autonomous = true;
     public Scheduler() {
 
+        Autonomous autonomous = new Autonomous();
+
     }
 
     public boolean runScheduler() {
