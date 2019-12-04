@@ -9,6 +9,7 @@ public class AutoStep {
     private int maxStepParameters = 5;
 
     //since the step type is not known by the constructor or the class as a whole, there is a constructor for every combination of possible parameters of a given step
+    //3459 value is for the overflow slots
     public AutoStep (AutoStepTypes stepType) {
         this.stepType = stepType;
         stepParameters = new double[maxStepParameters];
